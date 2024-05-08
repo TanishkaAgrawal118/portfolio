@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navhead{
+  color: black;
+  font-size: 20px !important;
+  padding: 5px !important;
+  font-family: "Maven Pro",sans-serif;
+  margin-right:12px ;
+
+}
+
+
+/* about heading - aboutMe, Education, Achievement */
+.abouthead:hover{
+  cursor: pointer;
+}
+.abouthead.active{
+  text-decoration: underline;
+  text-decoration-color: #155e75;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-decoration-thickness: 2px;
+  color:rgb(4 117 144);
+}
+.about-content{
+  transition: all 0.5s ease;
+}
+
+/* skills icon */
+.icon{
+  height: 55%;
+  width: 55%;
+  max-width: 90px;
+  max-height: 90px;
+  transition: all 0.3s ease;
+}
+.icon:hover{
+  height: 68%;
+  width: 68%;
+
+}
+
+.icon:hover::after{
+ transition:1s;
+}
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(100px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.paperAnimation {
+  animation: fadeIn 0.2s ease-in-out;
+} */
+
+/* Contact Let's get in touch */
+.contact{
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.75);
+  margin: 50px 0;
+  padding: 30px; 
+
+}
+.contact-form{
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.75);
+  margin: 50px 0;
+  padding: 30px;
+  background-color:#e5f0ff;
+}
+
+
+.inputs {
+  width: 100%;
+  outline: none;
+  border: 2px solid #766363;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 20px;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+/* Footer */
+.footer {
+  text-decoration: none;
+  background-color: #24262b;
+  padding: 30px 0 10px 0;
+}
+.footer .note {
+  font-family: "Lucida Handwriting";
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.home-back{
+  background-image: linear-gradient(-90deg,  #f1fffa,#dff9fa);
+  min-height: 90vh;
+}
+.project-back{
+  background-image: linear-gradient(-90deg,  #f1fffa,#dff9fa);
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.liItem{
+  background-image: linear-gradient(-90deg,  #f1fffa,#dff9fa);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.liItems{
+  font-size: 20px;
+}
